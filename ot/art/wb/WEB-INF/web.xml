@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+ 
+ <servlet>
+ 	<servlet-name>First</servlet-name>
+ 	<servlet-class>com.antra.FirstServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>First</servlet-name>
+ 	<url-pattern>/fs</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>second</servlet-name>
+ 	<servlet-class>com.antra.SecondServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>second</servlet-name>
+ 	<url-pattern>/ss</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet>
+ 	<servlet-name>third</servlet-name>
+ 	<servlet-class>com.antra.ThirdServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>third</servlet-name>
+ 	<url-pattern>/ts</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ 	<servlet-name>employee</servlet-name>
+ 	<servlet-class>com.antra.EmployeeController</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ 	<servlet-name>employee</servlet-name>
+ 	<url-pattern>/emp</url-pattern>
+ </servlet-mapping> 
+ 
+ 
+</web-app>
